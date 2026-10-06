@@ -16,7 +16,7 @@ profile:
     site: https://www.akamai.com
 sources:
   - source_id: src_5c14f04cd7b754f00902070cd225fced3b76adaa5867209cf090fe41648d5d1a
-    url: https://www.akamai.com/cloud/start-ups/rise
+    url: https://web.archive.org/web/20260614125959/https://www.akamai.com/cloud/start-ups/rise
 programs:
   - program_id: prg_01m485qq43d6rdq0nhhxb7bsd6
     program_slug: akamai-cloud-rise
