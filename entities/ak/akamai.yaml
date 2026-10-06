@@ -1,0 +1,73 @@
+schema_version: sourcey.entity-authoring/v1alpha1
+entity:
+  entity_id: ent_01m485qq42ah4ntapkw6xf1qp1
+  slug: akamai
+  slug_aliases: []
+  name: Akamai
+  domains:
+    - value: akamai.com
+      role: primary
+      valid_from: 2026-10-06T08:36:58.000Z
+  category: hosting-infra
+profile:
+  summary: Akamai is a cloud computing and content delivery company offering cloud infrastructure, security, and edge computing services.
+  description: Akamai provides cloud computing infrastructure, content delivery, cybersecurity, and edge computing services for businesses worldwide.
+  links:
+    site: https://www.akamai.com
+sources:
+  - source_id: src_5c14f04cd7b754f00902070cd225fced3b76adaa5867209cf090fe41648d5d1a
+    url: https://www.akamai.com/cloud/start-ups/rise
+programs:
+  - program_id: prg_01m485qq43d6rdq0nhhxb7bsd6
+    program_slug: akamai-cloud-rise
+    program_slug_aliases: []
+    title: Akamai Cloud Rise
+    summary: Akamai's three-year start-up program providing cloud credits in the first year and discounted cloud services in years two and three.
+    source_ids:
+      - src_5c14f04cd7b754f00902070cd225fced3b76adaa5867209cf090fe41648d5d1a
+offers:
+  - offer_id: off_01m485qq437jvjk1nfxqb1mmh3
+    program_id: prg_01m485qq43d6rdq0nhhxb7bsd6
+    offer_slug: akamai-cloud-rise-first-year-credits
+    offer_slug_aliases: []
+    title: Akamai Cloud Rise first-year credits
+    summary: Eligible start-ups receive between $500 and $120,000 in Akamai Cloud credits during their first year in the Rise program, plus solutions engineering guidance and 24/7 support.
+    lifecycle:
+      status: active
+      effective_from: 2026-10-06T08:36:58.000Z
+    economics:
+      consideration:
+        kind: none
+      benefits:
+        - benefit_id: ben_01
+          description: Between $500 and $120,000 in Akamai Cloud credits for the first year (credits do not roll over).
+          kind: credit
+          value:
+            amount:
+              currency: USD
+              minor_units: 12000000
+            kind: up-to
+          duration:
+            kind: exact
+            value: P12M
+        - benefit_id: ben_02
+          description: Guidance from solutions engineers, community networking, and dedicated account management.
+          kind: other
+        - benefit_id: ben_03
+          description: Prioritized 24/7/365 customer support.
+          kind: other
+    eligibility:
+      rule:
+        kind: manual
+        criterion_id: cri_requirement_01
+        statement: Must be an early-stage for-profit company fewer than seven years old with a new Akamai Cloud account using a corporate email address and a valid credit card; resellers, MSPs, and system integrators are not eligible.
+        reason: not-machine-evaluable
+    roles:
+      terms_authority_entity_id: ent_01m485qq42ah4ntapkw6xf1qp1
+      access_operator_entity_id: ent_01m485qq42ah4ntapkw6xf1qp1
+    access:
+      availability: public
+      method: form
+      url: https://www.akamai.com/cloud/start-ups/rise
+    source_ids:
+      - src_5c14f04cd7b754f00902070cd225fced3b76adaa5867209cf090fe41648d5d1a
