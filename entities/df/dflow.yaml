@@ -43,9 +43,9 @@ offers:
             kind: exact
             value: P6M
           kind: discount
-          value:
-            percent: 66
-            kind: percent-off
+          percentage:
+            kind: exact
+            basis_points: 6600
       consideration:
         kind: none
     eligibility:
